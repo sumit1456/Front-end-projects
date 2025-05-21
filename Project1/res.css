@@ -1,0 +1,36 @@
+
+
+.timer-bar{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    font-size: 25px;
+    gap: 10px;
+    height: 45px;
+    width: 100%;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer-bar p:nth-child(1){
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.timer-bar p:nth-child(2){
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.timer-bar p:nth-child(3){
+    grid-column-start: 6;
+    grid-column-end: 7;
+   
+}
+
+
+
+
+
+

@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding : 0;
+}
+
+.sec{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(5, 5, 5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+*{
+   color: white; 
+   font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.heading{
+    width: 80%;
+    height: 70px;
+    display: flex;
+    border-bottom: 2px solid white;
+    justify-content: space-between;
+}
+
+.heading a{
+    padding-top: 30px;
+    color:cyan;
+}
+
+.heading h2{
+    font-size: 30px;
+    color: rgb(188, 187, 187);
+    position: relative;
+    padding: 20px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+
+.container{
+   
+    width: 90%;
+    display: flex;
+}
+
+.info{
+    width: 800px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    height: 400px;
+}
+
+.u-icon{
+    font-size: 70px;
+    padding: 20px;
+}
+.details2 h1{
+    color: cyan;
+}
+.details2 p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.sheading{
+    width: 100%;
+   
+}
+
+.s-heading h1{
+    font-size: 27px;
+    padding-top: 20px;
+    color: cyan;
+   
+
+}
+
+.s-heading p {
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.cards-c{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    top: 30px;
+   
+    gap: 30px;
+    
+}
+
+
+.cards{
+    height: 120px;
+    border: 2px solid white;
+    width: 400px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    background-color : rgb(15, 19, 24);
+    
+    
+}
+.cards:hover{
+    background-color : rgb(55, 57, 59);
+    scale: 1.1;
+    transition: 0.8s;
+}
+
+.cards h1{
+    font-size: 20px;
+}
+
+.cards p{
+    font-size: 15px;
+}
+
+.icons{
+  
+}

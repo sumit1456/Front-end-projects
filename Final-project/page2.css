@@ -1,0 +1,42 @@
+.sec2{
+    height: 100vh;
+    width: 100%;
+    background-color: #292a2b;
+    background: radial-gradient(circle, #d3d3d3 0%, #808080 50%, #1a1a1a 100%);
+    background: radial-gradient(circle, #000000 10%, #1d1d22 50%, #121111 70%);
+
+
+
+
+
+}
+
+.sec2 h2{
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.carousel-item{
+    height: 400px;
+    width: 60%;
+}
+
+.carousel-item img{
+    height: 300px;
+    width: 50%;
+    position: relative;
+    left: 2%;
+
+}
+
+.carousel-item h2{
+   color: white;
+   
+}
+
+
